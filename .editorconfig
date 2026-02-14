@@ -1,0 +1,6 @@
+root = true
+
+# JavaScript, JSX, and CSS files
+[*.{js,jsx,css}]
+indent_style = space
+indent_size = 4
