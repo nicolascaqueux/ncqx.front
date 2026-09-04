@@ -1,1 +1,1 @@
-export { default } from "./HomeEntryPhotography";
+export { default } from './HomeEntryPhotography'

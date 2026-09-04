@@ -1,1 +1,1 @@
-export { default } from "./CatalogContentLoading";
+export { default } from './CatalogContentLoading'

@@ -1,1 +1,1 @@
-export { default } from "./HomeEntryBlog";
+export { default } from './HomeEntryBlog'

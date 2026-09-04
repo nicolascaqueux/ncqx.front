@@ -1,1 +1,1 @@
-export { default } from "./GoToContent";
+export { default } from './GoToContent'

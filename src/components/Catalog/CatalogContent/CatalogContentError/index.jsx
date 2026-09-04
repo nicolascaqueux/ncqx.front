@@ -1,1 +1,1 @@
-export { default } from "./CatalogContentError";
+export { default } from './CatalogContentError'

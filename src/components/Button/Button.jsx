@@ -1,5 +1,3 @@
-const Button = () => (
-    <h1 className="text-3xl mb-8 font-bold underline">Button</h1>
-);
+const Button = () => <h1 className='mb-8 text-3xl font-bold underline'>Button</h1>
 
-export default Button;
+export default Button

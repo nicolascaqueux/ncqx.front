@@ -1,1 +1,1 @@
-export { default } from "./HeaderBrand";
+export { default } from './HeaderBrand'

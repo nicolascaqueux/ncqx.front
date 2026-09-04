@@ -1,15 +1,15 @@
-import { useI18n } from "../../../../lib/i18nContext.jsx";
-import LoadingSpinner from "../../../LoadingSpinner/LoadingSpinner.jsx";
+import { useI18n } from '../../../../lib/i18nContext.jsx'
+import LoadingSpinner from '../../../LoadingSpinner/LoadingSpinner.jsx'
 
 const CatalogContentLoading = () => {
-    const { t } = useI18n();
+  const { t } = useI18n()
 
-    return (
-        <h2 className="flex flex-col max-w-[800px] mx-auto">
-            <span className="sr-only">{t("loading")}</span>
-            <LoadingSpinner />
-        </h2>
-    );
-};
+  return (
+    <h2 className='mx-auto flex max-w-[800px] flex-col'>
+      <span className='sr-only'>{t('loading')}</span>
+      <LoadingSpinner />
+    </h2>
+  )
+}
 
-export default CatalogContentLoading;
+export default CatalogContentLoading

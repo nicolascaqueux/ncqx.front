@@ -1,10 +1,10 @@
-import MainHead from "../../components/MainHead/MainHead";
-import { useI18n } from "../../lib/i18nContext";
+import MainHead from '../../components/MainHead/MainHead'
+import { useI18n } from '../../lib/i18nContext'
 
 const PageNotFound = () => {
-    const { t } = useI18n();
+  const { t } = useI18n()
 
-    return <MainHead title={t("pageNotFound")} />;
-};
+  return <MainHead title={t('pageNotFound')} />
+}
 
-export default PageNotFound;
+export default PageNotFound

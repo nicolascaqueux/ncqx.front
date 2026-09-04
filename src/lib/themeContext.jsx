@@ -1,23 +1,19 @@
-import { createContext, useContext, useEffect, useState } from "react";
+/* eslint-disable react-refresh/only-export-components */
 
-const ThemeContext = createContext();
+import { createContext, useContext, useEffect, useState } from 'react'
+
+const ThemeContext = createContext()
 
 export const ThemeProvider = ({ children }) => {
-    const [theme, setTheme] = useState(
-        localStorage.getItem("ncqx-theme") || "purple",
-    );
+  const [theme, setTheme] = useState(localStorage.getItem('ncqx-theme') || 'purple')
 
-    useEffect(() => {
-        setTheme(theme);
-        localStorage.setItem("ncqx-theme", theme);
-        document.documentElement.setAttribute("data-ncqx-theme", theme);
-    }, [theme]);
+  useEffect(() => {
+    setTheme(theme)
+    localStorage.setItem('ncqx-theme', theme)
+    document.documentElement.setAttribute('data-ncqx-theme', theme)
+  }, [theme])
 
-    return (
-        <ThemeContext.Provider value={{ theme, setTheme }}>
-            {children}
-        </ThemeContext.Provider>
-    );
-};
+  return <ThemeContext.Provider value={{ theme, setTheme }}>{children}</ThemeContext.Provider>
+}
 
-export const useTheme = () => useContext(ThemeContext);
+export const useTheme = () => useContext(ThemeContext)

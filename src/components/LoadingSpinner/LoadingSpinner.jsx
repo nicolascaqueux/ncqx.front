@@ -1,3 +1,3 @@
-const LoadingSpinner = () => <div className="spinner my-4 mx-auto" />;
+const LoadingSpinner = () => <div className='spinner mx-auto my-4' />
 
-export default LoadingSpinner;
+export default LoadingSpinner

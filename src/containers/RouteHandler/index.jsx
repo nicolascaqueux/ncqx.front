@@ -1,1 +1,1 @@
-export { default } from "./RouteHandler";
+export { default } from './RouteHandler'

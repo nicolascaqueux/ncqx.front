@@ -1,1 +1,1 @@
-export { default } from "./SchemeSwitcher";
+export { default } from './SchemeSwitcher'

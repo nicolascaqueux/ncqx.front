@@ -1,1 +1,1 @@
-export { default } from "./HomeEntryMusic";
+export { default } from './HomeEntryMusic'
